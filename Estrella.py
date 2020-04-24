@@ -1,0 +1,53 @@
+from turtle import*
+setup(640, 480 ,0 ,0)
+title("Estrella")
+screensize(200, 100)
+hideturtle()
+
+pensize(5)
+fillcolor("magenta")
+begin_fill()
+goto(100, 0)
+goto(100, 100)
+goto(0, 100)
+goto(0, 0)
+end_fill()
+
+fillcolor("cyan")
+begin_fill()
+goto(-100, 50)
+goto(0, 100)
+goto(0, 0)
+end_fill()
+
+fillcolor("cyan")
+begin_fill()
+goto(100, 0)
+goto(50, -100)
+goto(0, 0)
+end_fill()
+penup()
+goto(100, 0)
+pendown()
+
+fillcolor("cyan")
+begin_fill()
+goto(100, 0)
+goto(200,50)
+goto(100,100)
+goto(100, 0)
+end_fill()
+penup()
+goto(-0, 100)
+pendown()
+
+fillcolor("cyan")
+begin_fill()
+goto(0, 100)
+goto(50, 200)
+goto(100, 100)
+goto(0, 100)
+end_fill()
+
+
+
